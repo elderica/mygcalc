@@ -499,6 +499,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "evalexpr"
+version = "8.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b62f8e24f69931f90f1ca2a86e320916dcc22883b93c5453bbc57307e38618b"
+
+[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -814,6 +820,7 @@ dependencies = [
  "console_error_panic_hook",
  "eframe",
  "egui",
+ "evalexpr",
  "serde",
  "tracing-subscriber",
  "tracing-wasm",
